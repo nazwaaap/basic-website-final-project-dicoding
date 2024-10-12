@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    text-align: center;
+}
+
+nav a{
+    color: rgb(44, 43, 43); 
+    text-decoration: none; 
+}
+
+nav a:hover{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav{
+    background-color: #93a0ac;
+    padding: 5px;
+    text-align: center;
+    top: 0;
+    display: flex; 
+    justify-content: center;
+}
+
+nav ul{
+    padding-inline: 0; 
+    display: flex; 
+    gap: 25rem; 
+    list-style-type: none;
+}
+
+nav li{
+    text-align: center;
+}
+
+h2,h3{
+  color:black;
+}
+
+main{
+    padding: 30px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.p1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+   
+#content{
+    flex: 5;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+}
+
+aside{
+    flex: 1;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(12, 12, 12, 0.2);
+    border-radius: 4px;
+    padding: 30px;
+}
+
+.imagesum{
+    width: 150px;
+    border-radius: 50%;
+}
+
+table{
+    text-align: justify;
+}
+
+footer{
+    padding: 20px;
+    color: rgb(44, 43, 43); 
+    background-color: #93a0ac;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100px; 
+}
